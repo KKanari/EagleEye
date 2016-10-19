@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="70px"
+	android:orientation="vertical"
+	android:padding="10px">
+	<TextView
+		android:id="@+id/ListTitle"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textSize="20sp"    
+		android:textColor="@color/white"/>
+	<TextView
+		android:id="@+id/ListExplanation"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textSize="15sp"/>
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/EditLayout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:padding="10px">
+	<TextView
+		android:id="@+id/EditObjext"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:textSize="15sp"/>
+	<TextView
+		android:id="@+id/EditExp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/editExp"
+		android:textSize="15sp"/>
+	<EditText
+		android:id="@+id/EditEdit"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:text=""
+		android:gravity="top|left"
+		android:maxLength="128"
+		android:singleLine="true"/>
+	<LinearLayout
+		android:id="@+id/EditButtonlayout"
+		android:orientation="horizontal"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="right">
+		<Button
+			android:id="@+id/EditOkButton"
+			android:layout_width="70px"
+			android:layout_height="wrap_content"
+			android:text="@string/editOk"/>
+		<Button
+			android:text="@string/editCancel"
+			android:id="@+id/EditCancelButton"
+			android:layout_width="70px"
+			android:layout_height="wrap_content"/>
+	</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 画面使用色 -->
+	<color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<color name="red">#ff0000</color>
+	<color name="skyblue">#87CEEB</color>
+	<color name="orange">#FFA500</color>
+	<color name="translucentBlack">#aa000000</color>
+</resources>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Eagle Eye</string>
+
+	<!-- システム設定 -->
+	<string name="arrivalDistance">30.0</string>
+	<string name="defaultLatitude">0.0</string>
+	<string name="defaultLongitude">0.0</string>
+	<string name="gmailWhere">EagleEye_location</string>
+	<string name="packageName">kms2.EagleEye</string>
+	<string name="zipCode">〒</string>
+
+	<!-- タイトルバー  -->
+	<string name="titleVersion">ver</string>
+
+	<!-- MainForm表示 -->
+	<string name="start">距離・方向取得</string>
+	<string name="latitude">緯度</string>
+	<string name="longitude">経度</string>
+	<string name="address">住所</string>
+	<string name="resultTitle">目的地までの距離と方向</string>
+	<string name="distance">距離：</string>
+	<string name="direction">方向：</string>
+	<string name="myLocationTitle">現在位置</string>
+	<string name="destinationTitle">目的地</string>
+	<string name="latitudeTag">緯度：</string>
+	<string name="longitudeTag">経度：</string>
+	<string name="addressTag">住所：</string>
+	<string name="priority">優先</string>
+	<string name="rfrMap1">地図\n参照</string>
+	<string name="rfrMap2">地図参照</string>
+
+	<!-- MapForm表示 -->
+	<string name="confirmation">この場所を目的地に指定しますか？</string>
+	<string name="mapOk">OK</string>
+	<string name="mapSeach">検索</string>
+	<string name="defaultZoom">15</string>
+
+	<!-- EditDataNameForm表示 -->
+	<string name="editExp">この位置データ名を入力してください。</string>
+	<string name="editOk">OK</string>
+	<string name="editCancel">Cancel</string>
+	<string name="editObjectMyLocation">現在位置名編集</string>
+	<string name="editObjectLocation">目的地名編集</string>
+	<string name="editListMax">100</string>
+
+	<!-- SettingForm表示 -->
+	<string name="settingDisplay">緯度、経度の表示と入力</string>
+	<string name="settingFull">目的位置までの\n距離・方向全画面表示</string>
+	<string name="settingAlarm">目的位置到着時のアラーム</string>
+	<string name="settingGmail">Gmailのアカウント設定</string>
+	<string name="settingGmailDialog">参照するGmailのアカウント名を入力してください。</string>
+	<string name="settingGmailDBUri">content://gmail-ls/conversations/</string>
+	<string name="settingGmailFixation">%40gmail.com</string>
+	<string name="settingGmailMessages">/messages</string>
+	<string name="settingOk">OK</string>
+	<string name="settingCancel">Cancel</string>
+
+	<!-- DataListForm表示 -->
+	<string name="dataListExp">検索する文字を入力してください。</string>
+	<string name="serch">検索</string>
+	<string name="prcTitle">処理選択</string>
+	<string name="prcReference">目的地に指定</string>
+	<string name="prcSend">Gmailで送信</string>
+	<string name="prcEdit">位置データ名編集</string>
+	<string name="prcDelete">削除</string>
+	<string name="dltTitle">削除確認</string>
+	<string name="dltExp">削除してよろしいですか？</string>
+	<string name="dltOk">OK</string>
+	<string name="dltCancel">Cancel</string>
+
+	<!-- SelectGmailForm表示 -->
+	<string name="sGmailDlm">, </string>
+	<string name="sGmailListMax">30</string>
+	<string name="sGmailListMe">自分</string>
+
+	<!-- メニュー項目 -->
+	<string name="saveLocation">位置保存</string>
+	<string name="readDataList">位置データ一覧</string>
+	<string name="sendLocation">位置送信</string>
+	<string name="readMailList">Gmailから取得</string>
+	<string name="setting">設定</string>
+	<string name="search">検索</string>
+
+	<!-- 設定ファイル -->
+	<string name="filePath">/data/data/kms2.EagleEye</string>
+	<string name="fileName">/setting.txt</string>
+	<string name="fileCode">UTF-8</string>
+	<string name="cl">\n</string>
+	<string name="delimitation">&lt;&gt;</string>
+
+	<!-- GmailDB項目名 -->
+	<string name="gmailConversationId">conversation_id</string>
+	<string name="gmailDate">date</string>
+	<string name="gmailSender">fromAddress</string>
+	<string name="gmailSubject">subject</string>
+	<string name="gmailMsgDate">dateReceivedMs</string>
+	<string name="gmailMsgSender">fromAddress</string>
+	<string name="gmailMsgSubject">subject</string>
+
+	<!--　距離・方向表示 -->
+	<string name="meter">m</string>
+	<string name="kiloMeter">km</string>
+	<string name="sign">°</string>
+	<string name="n">北</string>
+	<string name="nne">北北東</string>
+	<string name="ne">北東</string>
+	<string name="ene">東北東</string>
+	<string name="e">東</string>
+	<string name="ese">東南東</string>
+	<string name="se">南東</string>
+	<string name="sse">南南東</string>
+	<string name="s">南</string>
+	<string name="ssw">南南西</string>
+	<string name="sw">南西</string>
+	<string name="wsw">西南西</string>
+	<string name="w">西</string>
+	<string name="wnw">西北西</string>
+	<string name="nw">北西</string>
+	<string name="nnw">北北西</string>
+	<string name="earthAround">40075.017</string>
+
+	<!--　メッセージ -->
+	<string name="getTitleErrorMsg">アプリケーション名の取得に失敗しました。</string>
+	<string name="getLctErrorMsg">現在位置の取得に失敗しました。</string>
+	<string name="p2aErrorMsg">住所の取得に失敗しました。</string>
+	<string name="a2pErrorMsg">住所の検索に失敗しました。</string>
+	<string name="dstDataErrorMsg">目的地の値が不正です。</string>
+	<string name="readSettingFileErrorMsg">設定の読み込みに失敗しました。</string>
+	<string name="makeSettingFileErrorMsg">設定の更新に失敗しました。</string>
+	<string name="gmailNameErrorMsg">Gmailのアカウント名が不正です。</string>
+	<string name="readDBErrorMsg">位置データの読み込みに失敗しました。</string>
+</resources>

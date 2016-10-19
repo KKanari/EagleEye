@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/backlayout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+<LinearLayout
+	android:id="@+id/serchlayout"
+	android:orientation="vertical"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:background="@android:drawable/btn_default_small"
+	android:padding="10px">
+	<TextView
+		android:id="@+id/dataListExp"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="@string/dataListExp"
+ 		android:textColor="@color/black"
+		android:textSize="15sp"/>
+	<RelativeLayout
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content">
+			<Button
+				android:text="@string/mapSeach"
+				android:id="@+id/SearchButton"
+				android:layout_width="70px"
+				android:layout_height="wrap_content"
+				android:layout_alignParentRight="true"/>
+			<EditText
+				android:id="@+id/SearchEdit"
+				android:singleLine="true"
+				android:layout_width="fill_parent"
+				android:layout_height="wrap_content"
+				android:layout_toLeftOf="@+id/SearchButton"
+				android:text=""/>
+	</RelativeLayout>
+</LinearLayout>
+<ListView
+	android:id="@+id/DataList"
+	android:layout_height="fill_parent"
+	android:layout_width="fill_parent"/>
+</LinearLayout>
